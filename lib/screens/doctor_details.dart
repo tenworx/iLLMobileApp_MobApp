@@ -38,8 +38,8 @@ class _BookingScreenState extends State<BookingScreen> {
   void initState() {
     setState(() {
       twilioFlutter = TwilioFlutter(
-          accountSid: 'ACb990e23fabc9e5d0546c63662d9820d1',
-          authToken: '73b0e80368fbff81304d5bc2c3ab01c9',
+          accountSid: '',
+          authToken: '',
           twilioNumber: '+18444235752');
     });
     Geolocator.getCurrentPosition().then((value) {
